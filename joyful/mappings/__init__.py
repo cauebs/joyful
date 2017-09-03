@@ -1,2 +1,2 @@
 from .generic import GENERIC
-import dualshock4
+from . import dualshock4

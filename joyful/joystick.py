@@ -2,8 +2,8 @@ from array import array
 from fcntl import ioctl
 from struct import unpack
 
-import mappings
-from event import Event
+from . import mappings
+from .event import Event
 
 
 class Joystick:
