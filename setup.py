@@ -1,10 +1,8 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(
     name='joyful',
-    py_modules=['joyful'],
+    packages=find_packages(),
     url='https://github.com/cauebs/joyful',
-    maintainer='Cauê Baasch de Souza',
-    description='Simple joystick input on Linux'
 )
