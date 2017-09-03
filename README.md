@@ -26,3 +26,6 @@ for event in ds4.iter_events():
 Joystick input is read from `/dev/input/js{joystick_number}`.
 
 This has only been tested on my Dualshock 4. If you create mappings for other controllers, I'll be glad to merge them! However, this isn't intended for serious usage and there might not be any further developments.
+
+
+This is based on [a gist](https://gist.github.com/rdb/8864666) by @rdb, so credits also go to him.
